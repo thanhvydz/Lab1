@@ -1,0 +1,104 @@
+.maunen {
+    background-color: aqua;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 255);
+    border: solid 2px white;
+}
+
+#damage {
+    text-align: center;
+    width: 20px;
+}
+
+label [for="username"] {
+    text-align: left;
+    padding-top: 2px;
+}
+
+input[type="text"] {
+    padding: 3px;
+}
+
+.label {
+    display: grid;
+    grid-template-columns: 78px 1fr;
+    align-items: center;
+    width: 30px;
+    height: 32px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#imageGrid {
+    position: absolute;
+    top: 168px; /* Vị trí ảnh theo trục Y */
+    right: 0px; /* Vị trí ảnh theo trục X */
+    width: 200px;
+}
+
+.section {
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.canchinh {
+    padding-left: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+H1 {
+    font-size: 80px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mau1 {
+    background-color: violet;
+}
+
+.mau2 {
+    background-color: rgb(162, 255, 0);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tạo 3 cột với kích thước bằng nhau */
+    gap: 150px; /* Khoảng cách giữa các cột */
+}
+
+.grid-item {
+    background-color: #D1E8E2;
+    padding: 15px;
+}
+
+body {
+    background-image: url(./anh/1169197.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+fieldset {
+    border-color: white;
+    border-width: 2px;
+}
